@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/tor-gu/njmunicipalities/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/tor-gu/njmunicipalities/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/torgu-data/njmunicipalities/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/torgu-data/njmunicipalities/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 This is a data package for R that contains every county and municipality
@@ -18,7 +18,7 @@ You can install the development version of njmunicipalities from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("tor-gu/njmunicipalities")
+devtools::install_github("torgu-data/njmunicipalities")
 ```
 
 ## Changes in NJ municipalites, 2000-2026
@@ -216,7 +216,7 @@ c(PRINCETON_TWP_GEOID, PRINCETON_BORO_GEOID)
 ```
 
 As an example, consider the municipal election data in
-[`njelections`](https://github.com/tor-gu/njelections). For comparisons
+[`njelections`](https://github.com/torgu-data/njelections). For comparisons
 across years, we may wish to combine the vote totals for the Princetons
 prior to 2013:
 
